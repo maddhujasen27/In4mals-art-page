@@ -495,9 +495,111 @@ nav.visible li:nth-child(4) a {
   color: grey;
 }
 
-@media (max-width: 800px){
-	p{
-		font-size: 1.25rem;
-	}
-}
-		
+
+@media screen and (max-width:700px){
+  p {
+    font-size: 2.3vw;
+  }
+  h3{
+    font-size: 2.7vw;
+  }
+  h1{
+    font-size: 3.3vw;
+  }
+
+  .heading {
+    position: absolute;
+    top: 14vw;
+    left: 2%;
+    font-family: Barrio;
+    font-size: 3.5vw;
+    color: #393E46;
+  }
+
+  .footer {
+    position: relative;
+    margin-left: 0;
+    margin-top: 10vw;
+
+  }
+
+  .trophy-img {
+    height: 8vw;
+    width: 8vw;
+
+  }
+
+  .medal-img {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .artwork-img {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .trophy {
+    position: relative;
+    text-align: center;
+    margin-left: 50vw;
+  }
+
+  .medal {
+    position: absolute;
+    margin-left: 45vw;
+    top: 0;
+    text-align: center;
+  }
+
+  .artwork {
+    position: absolute;
+    top: 0;
+    margin-left: 20vw;
+    text-align: center;
+  }
+  .copyright{
+    font-size: 2vw;
+    color: grey;
+  }
+
+  .mandala-img {
+    width: 25%;
+    height: 20vw;
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+  }
+
+  .painting-img {
+    width: 25%;
+    height: 20vw;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    float: right;
+  }
+
+  .digital-art-img {
+    width: 25%;
+    height: 20.5vw;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .sketch-art-img {
+    width: 25%;
+    height: 20vw;
+    margin-left: 20px;
+    float: right;
+  }
+
+
+  .p-img {
+    margin-top: 0;
+    margin-bottom: 2%;
+    height: 25%;
+    width: 25%;
+  }
+
+
+}		
