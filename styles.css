@@ -229,6 +229,43 @@ nav.visible li:nth-child(4) a {
 	}
 }
 
+.social-icons {
+	position: fixed;
+	top: 40%;
+	right: 10px;
+	z-index: 2;
+}
+
+.social-icons a {
+	text-decoration: none;
+
+}
+
+.fa-instagram {
+	text-align: center;
+	display: block;
+	font-size: 30px;
+
+}
+
+.fa-youtube {
+	display: block;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.social-icons a .fab {
+	color: #fff;
+	/*	padding: 5px 10px 5px 20px;*/
+}
+
+.social-icons a .fab:hover {
+	cursor: pointer;
+	transform: scale(1.08);
+}
+
 
 /*.top-head{
   color: #00D1FF;
