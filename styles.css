@@ -228,6 +228,7 @@ nav.visible li:nth-child(4) a {
 		background-color: transparent;
 	}
 }
+/* Social Media Buttons */
 
 .social-icons {
 	position: fixed;
@@ -248,7 +249,6 @@ nav.visible li:nth-child(4) a {
 	display: block;
 	font-size: 30px;
 	margin-left: 3px;
-
 }
 
 .fa-youtube {
@@ -256,12 +256,10 @@ nav.visible li:nth-child(4) a {
 	font-size: 30px;
 	margin-top: 20px;
 	text-align: center;
-
 }
 
 .social-icons a .fab {
 	color: #fff;
-	/*	padding: 5px 10px 5px 20px;*/
 }
 
 .social-icons a .fab:hover {
@@ -269,6 +267,23 @@ nav.visible li:nth-child(4) a {
 	transform: scale(1.08);
 }
 
+/*      Back to top   */
+.back-to-top {
+	background-color: #101d2e;
+	padding: 10px 12px;
+	color: #ffd700;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 0 7px #ffd700;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+	transition: all .5s ease-in;
+	opacity: 0;
+	transform: translateY(1000px);
+}
 
 /*.top-head{
   color: #00D1FF;
