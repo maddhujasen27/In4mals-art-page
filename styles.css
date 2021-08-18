@@ -371,55 +371,55 @@ nav.visible li:nth-child(4) a {
 
 @keyframes slider {
   0% {
-    background-image: url("./Images/Artwork/img1.jpeg");
+    background-image: url('img1.jpeg');
   }
 
   8% {
-    background-image: url("./Images/Artwork/img7.jpeg");
+    background-image: url('img7.jpeg');
   }
 
   16% {
-    background-image: url("./Images/Artwork/img2.jpg");
+    background-image: url('img2.jpg');
   }
 
   24% {
-    background-image: url("./Images/Artwork/img5.jpeg");
+    background-image: url('img5.jpeg');
   }
 
   32% {
-    background-image: url('./Images/Artwork/img6.jpeg');
+    background-image: url('img6.jpeg');
   }
 
   40% {
-    background-image: url("./Images/Artwork/img8.jpeg");
+    background-image: url('img8.jpeg');
   }
 
   48% {
-    background-image: url("./Images/Artwork/img9.jpeg");
+    background-image: url('img9.jpeg');
   }
 
   56% {
-    background-image: url("./Images/Artwork/img11.jpeg");
+    background-image: url('img11.jpeg');
   }
 
   64% {
-    background-image: url("./Images/Artwork/img12.jpeg");
+    background-image: url('img12.jpeg');
   }
 
   72% {
-    background-image: url('./Images/Artwork/img13.jpeg');
+    background-image: url('img13.jpeg');
   }
 
   80% {
-    background-image: url("./Images/Artwork/img14.jpeg");
+    background-image: url('img14.jpeg');
   }
 
   88% {
-    background-image: url("./Images/Artwork/img15.jpeg");
+    background-image: url('img15.jpeg');
   }
 
   96% {
-    background-image: url("./Images/Artwork/img 16.jpeg");
+    background-image: url('img 16.jpeg');
   }
 }
 
