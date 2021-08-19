@@ -519,6 +519,8 @@ nav.visible li:nth-child(4) a {
 }
 
 .copyright{
+	position: relative;
+	bottom: 0;
   	color: #5589f2;
 	font-size: 20px;
 	text-align: center;
