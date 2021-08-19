@@ -519,8 +519,19 @@ nav.visible li:nth-child(4) a {
 }
 
 .copyright{
-  font-size: 1vw;
-  color: grey;
+  	color: #5589f2;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 30px;
+	background: #101d2e;
+	box-shadow: 0 20px 50px rgb(0 0 0/ 50%);
+	border: 3px solid #FFD700;
+	border-top-width: 0;
+	border-bottom-width: 0;
 }
 
 
