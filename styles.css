@@ -289,34 +289,6 @@ nav.visible li:nth-child(4) a {
 	transform: translateY(1000px);
 }
 
-/*.top-head{
-  color: #00D1FF;
-  font-size: 2vw;
-  position: relative;
-}
-.top-head::before{
-  position: absolute;
-  content: attr(data-text);
-  text-shadow: 0 0 20px #00D1FF;
-  filter : blur(1px) brightness(0.75);
-  animation: flicker 2s infinite linear 1s forwards;
-
-}
-@keyframes flicker {
-  0%{filter : blur(1px) brightness(0.75);}
-  3%{filter : blur(1px) brightness(0);}
-  6%{filter : blur(1px) brightness(0);}
-  7%{filter : blur(1px) brightness(0.75);}
-  8%{filter : blur(1px) brightness(0);}
-  9%{filter : blur(1px) brightness(0.75);}
-  10%{filter : blur(1px) brightness(0);}
-  20%{filter : blur(1px) brightness(0.75);}
-  50%{filter : blur(1px) brightness(0.75);}
-  99%{filter : blur(1px) brightness(0);}
-  100%{filter : blur(1px) brightness(0.75);}
-
-
-}*/
 .icon {
   position: absolute;
   top: 1.7vw;
@@ -325,9 +297,6 @@ nav.visible li:nth-child(4) a {
   left: 2%;
 }
 
-/*.head{
-  margin: 200px;
-}*/
 .bg-img {
   height: 47vw;
   width: 100%;
@@ -370,7 +339,7 @@ nav.visible li:nth-child(4) a {
 }
 
 @keyframes slider {
-  0% {
+  0%,100% {
     background-image: url('img1.jpeg');
   }
 
@@ -708,7 +677,7 @@ nav.visible li:nth-child(4) a {
   }
 
   @keyframes slider {
-    0% {
+    0%,100% {
       background-image: url('img1.jpeg');
     }
 
