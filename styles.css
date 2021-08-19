@@ -393,8 +393,16 @@ nav.visible li:nth-child(4) a {
 }
 
 .images {
-  /*top: 50%;*/
   margin: 7%;
+}
+
+.images img{
+  border: 3.2px solid;
+  border-top-width: 0;
+  border-bottom: 0;
+  border-image: linear-gradient(to bottom, rgb(0 0 0/ 30%), rgb(255 215 0 / 100%), #ffd700, #000) 10 100%;
+  box-shadow: 0 20px 50px rgb(0 0 0/ 50%);
+  padding: 15px;
 }
 
 .mandala-img {
@@ -432,6 +440,12 @@ nav.visible li:nth-child(4) a {
 
 .p {
   margin: 7%;
+  border: 3.2px solid;
+  border-top-width: 0;
+  border-bottom: 0;
+  border-image: linear-gradient(to bottom, rgb(0 0 0/ 30%), rgb(255 215 0 / 100%), #ffd700, #000) 10 100%;
+  box-shadow: 0 20px 50px rgb(0 0 0/ 50%);
+  padding: 15px;
 }
 
 .p-img {
@@ -513,14 +527,12 @@ nav.visible li:nth-child(4) a {
 
 .bottom{
   margin-top: 20vw;
-  margin-bottom: 3vw;
   text-align: center;
 
 }
 
 .copyright{
 	position: relative;
-	bottom: 0;
   	color: #5589f2;
 	font-size: 20px;
 	text-align: center;
